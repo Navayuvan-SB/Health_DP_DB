@@ -7,4 +7,5 @@
     <string name="enter_symptoms">enter symptoms</string>
     <string name="select_symptoms">select symptoms</string>
     <string name="predict">Predict</string>
+    <string name="nulla">nulla</string>
 </resources>
