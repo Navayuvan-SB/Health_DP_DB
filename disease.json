@@ -1,0 +1,786 @@
+{
+	"Disease": {
+		"Tetanus": "1",
+
+		"Diptheria": "2",
+
+		"Dengue Fever": "3",
+
+		"Vitiligo": "4",
+
+		"Gastritis": "5",
+
+		"Gout": "6",
+
+		"Asthma": "7",
+
+		"cholera": "8",
+
+		"chicken pox": "9",
+
+		"malaria": "10",
+
+		"Ebola": "11",
+
+		"Diabetes": "12",
+
+		"Rheumatoid Arthritis": "13",
+
+		"Multiple Sclerosis": "14",
+
+		"Arrhythmia": "15",
+
+		"Cardiomyopathy": "16",
+
+		"Frontotemporal dementia": "17",
+
+		"Cardiophobia": "18",
+
+		"Cardiomegaly": "19",
+
+		"Yellow Fever": "20",
+
+		"Migraine": "21",
+
+		"Swine Flu": "22",
+
+		"Peptic ulcer": "23",
+
+		"Heart Attack": "24",
+
+		"Myocarditis": "25",
+
+		"Fibromyalgia": "26",
+
+		"Addison's Disease": "27",
+
+		"Albinism": "28",
+
+		"Anemia": "29",
+
+		"Anthrax": "30",
+
+		"Tuberculosis": "31",
+
+		"Leukemia": "32",
+
+		"Brain Cancer": "33",
+
+		"Pneumonia": "34",
+
+		"Cataract": "35",
+
+		"Cavities": "36",
+
+		"Dyslexia": "37",
+
+		"Hematuria": "38",
+
+		"Hepatitis B": "39",
+
+		"Leprosy": "40",
+
+		"Trachoma": "41",
+
+		"Hypothyroid": "42",
+
+		"Influenza": "43",
+
+		"Kidney Stones": "44",
+
+		"Hyperthyroidism": "45"
+	},
+
+	"Symptoms": {
+
+		"fever": "1",
+
+		"cold sweats and shivers": "2",
+		"headache": "3",
+		"aching joints and limbs": "4",
+		"fatigue": "5",
+		"dry hair and coarse": "6",
+		"forgetfulness": "7",
+		"constipation": "8",
+		"depression": "9",
+		"dry, scaly skin": "10",
+		"hair loss": "11",
+		"increased menstrual flow": "12",
+		"muscle cramps": "13",
+		"slow heart rate": "14",
+		"weight loss": "15",
+		"Light-colored poop": "16",
+		"nausea and vomiting": "17",
+		"Abdominal pain": "18",
+		"Frequent urination": "19",
+		"Pain during urination": "20",
+		"Urinary urgency": "21",
+		"Increased hunger": "22",
+		"Delayed early language development": "23",
+		"Slow learning of new vocabulary words": "24",
+		"Increased thirst": "25",
+		"blurry vision": "26",
+		"night blindness": "27",
+		"increased sensitivity to glare": "28",
+		"halos surrounding lights": "29",
+		"double vision in the affected eye": "30",
+		"Clumsiness": "31",
+		"Difficulty walking": "32",
+		"Speech difficulties": "33",
+		"Poor blood clotting": "34",
+		"Frequent infections": "35",
+		"Anemia": "36",
+		"Loss of appetite": "37",
+		"Sore throat": "38",
+		"Shortness of breath": "39",
+		"Appear pale": "40",
+		"Develop palpitations": "41",
+		"Freckles": "42",
+		"Moles with or without pigment": "43",
+		"Sunburn": "44",
+		"Darkening of skin": "45",
+		"Diarrhoea": "46",
+		"Depression": "47",
+		"bloody stools": "48",
+		"sensitivity to touch": "49",
+		"Fast heart rate": "50",
+		"Pain behind the eyes": "51",
+		"Swollen glands": "52",
+		"Rashes": "53",
+		"Premature whitening": "54",
+		"Change in color of retina": "55",
+		"Inflammation": "56",
+		"Persistent cough": "57",
+		"Night sweating": "58",
+		"Unexplained bleeding": "59",
+		"Prolonged double vision": "60",
+		"Dizziness": "61",
+		"Weight gain": "62",
+		"Lightheadedness": "63",
+		"chest pain": "64",
+		"feeling of apprehension": "65",
+		"sensitivity to light": "66",
+		"Numbness": "67",
+		"Touch sensation reduced": "68",
+		"Anxiety": "69",
+		"Trouble thinking clearly": "70",
+		"Small fluid-filled blisters": "71",
+		"Cough": "72",
+		"Body aches": "73",
+		"Throat pain": "74",
+		"runny nose": "75",
+		"excessive  sweating": "76",
+		"convulsions": "77",
+		"coughing up blood": "78",
+		"Eyelid swelling": "79",
+		"Eye pain": "80",
+		"irritation of the eyes and eyelids": "81",
+		"swelling": "82",
+		"Paralysis": "83",
+		"fainting": "84",
+		"chill": "85",
+		"difficulty swallowing": "86",
+		"nosebleed": "87",
+		"patchy loss of skin color": "88",
+		"whitenening and greying of hair": "89",
+		"indigestion": "90",
+		"belching(noise from stomach)": "91",
+		"aching and swelling joints": "92",
+		"physical deformity": "93",
+		"wheezing": "94",
+		"high bp": "95",
+		"low bp": "96",
+		"dehydration": "97",
+		"tiredness": "98",
+		"itching": "99",
+		"ulcer": "100",
+		"loss of empathy": "101",
+		"poor judgment": "102",
+		"lack of inhibition": "103",
+		"rapid breathing": "104",
+		"sensitivity to sound": "105",
+		"dry cough": "106",
+
+		"muscular pain": "107",
+		"abnormal heart rhythm": "108",
+		"sleeplessness": "109",
+		"painful menstruation": "110",
+		"reduced sex drive": "111",
+		"pain in bones and joints": "112",
+		"mouth ulcer": "113",
+		"red spots on skin": "114",
+		"muscle weakness": "115",
+		"vertigo": "116",
+		"mental confusion": "117",
+		"difficulty in walking": "118",
+		"malaise": "119",
+		"inability to see in dim light": "120",
+		"toothache": "121",
+		"tooth sensitivity": "122",
+		"difficulty memorising": "123",
+		"decreased urinary force": "124",
+		"yellow skin and eyes": "125",
+		"fluid in the abdomen": "126",
+		"loss of temperature": "127",
+		"eyelid scarring": "128",
+		"lethargy": "129",
+		"high cholesterol": "130",
+		"irregular uterine bleeding": "131",
+		"blood in urine": "132",
+		"pain in back": "133",
+		"restlessness": "134",
+		"hyperactivity": "135"
+	},
+
+	"Match": {
+
+		"1": "1, 3, 46, 38, 49",
+		"2": "1, 5, 39, 53, 72, 86, 87",
+		"3": "3, 4, 17, 18, 51, 52",
+		"4": "88, 89, 55",
+		"5": "18, 17, 37, 90, 91",
+		"6": "4, 92, 93",
+		"7": "72, 94, 39, 69, 50, 74, 95",
+		"8": "18,17,46, 97, 98",
+		"9": "71, 37, 5, 10, 1, 3, 38, 99, 100",
+		"10": "85, 58, 17, 95, 46, 5, 18, 3, 2",
+		"11": "3, 46, 17, 38, 97, 37, 2, 38, 78, 81",
+		"12": "3, 5, 15, 26, 22, 19, 25, 24",
+		"13": "92, 5, 24, 93, 36",
+		"14": "80, 81, 79, 31, 5, 33, 67, 47, 69, 26, 19, 20, 21, 8, 68",
+		"15": "64, 84, 39, 96, 61, 41",
+		"16": "39, 64, 61, 5, 37, 50, 72, 62, 76",
+		"17": "33, 101, 102, 103",
+		"18": "69, 39, 76, 17, 104",
+		"19": "39, 5, 41, 82",
+		"20": "18, 85, 5, 1, 3, 37, 17, 59",
+		"21": "80, 3, 61, 17, 39, 105, 26",
+		"22": "106, 107, 85, 5, 1, 3, 38, 39, 46",
+		"23": "18, 64, 91, 90, 17, 5, 37",
+		"24": "64, 18, 61, 5, 76, 2, 90, 17, 69, 41, 39",
+		"25": "64, 61, 5, 108, 39, 41",
+		"26": "18, 107, 17, 8, 5, 69, 109, 3, 4, 110",
+		"27": "97, 61, 18, 107, 5, 84, 96, 37, 17, 45, 19, 111, 15",
+		"28": "51, 81, 26, 88, 63, 66",
+		"29": "3, 63, 39, 61, 5, 41",
+		"30": "107, 64, 1, 71, 100, 39, 99, 72, 38, 17",
+		"31": "64, 78, 5, 1, 37, 58, 15",
+		"32": "112, 61, 5, 1, 37, 113, 87, 35, 114, 39, 15",
+		"33": "3, 32, 115, 61, 5, 116, 17 ,68, 117, 26, 118",
+		"34": "64, 1, 85, 97, 5, 37, 119, 76, 104, 39",
+		"35": "26, 29, 120",
+		"36": "121, 122",
+		"37": "33, 23, 24, 123, 3",
+		"38": "18, 19, 20, 21, 124",
+		"39": "5, 119, 125, 126",
+		"40": "4, 71, 88, 53, 100, 68, 127",
+		"41": "51, 81, 80, 26, 128",
+		"42": "5, 129, 11, 6, 10, 130, 131, 14, 62",
+		"43": "107, 72, 85, 1, 5, 97, 37, 75, 39, 38, 17",
+		"44": "19, 17, 132, 133",
+		"45": "76, 22, 134, 108, 50, 11, 15, 46, 115, 135"
+
+	},
+	"Disease Description": {
+
+		"Tetanus": "Tetanus is a serious bacterial infection.The bacteria exist in soil, manure, and otherenvironmental agents. A person who experiences a puncture wound with acontaminated object can develop the infection, which can affect the whole body. It can be fatal.",
+
+		"Diptheria": "Diphtheria is a serious bacterialinfection that affects the mucous membranes of the throatand nose. Although it spreads easily from one person to another, diphtheria can be prevented through the use of vaccines.",
+
+		"Dengue Fever": "Dengue fever is a painful, debilitating mosquito-borne disease caused by any one of four closely related dengue viruses. These viruses are related to the viruses that cause West Nile infection and yellow fever.",
+
+		"Vitiligo": "Vitiligo (vit-ih-LIE-go) is a disease that causes the loss of skin color in blotches. The extent and rate of color loss from vitiligo is unpredictable. It can affect the skin on any part of your body. It may also affect hair and the inside of the mouth.",
+
+		"Gastritis": "Gastritis is an inflammation of the protective lining of the stomach. Acute gastritis involves sudden, severe inflammation. Chronic gastritis involves long-term inflammation that can last for years if it's left untreated. Erosive gastritis is a less common form of the condition.",
+
+		"Gout": "Gout is a common, painful form of arthritis. It causes swollen, red, hot and stiff joints. Gout happens when uric acid builds up in your body. Uric acid comes from the breakdown of substances called purines.",
+
+		"Asthma": "Asthma is a common long-term inflammatory disease of the airways of the lungs. It is characterized by variable and recurring symptoms, reversible airflow obstruction, and bronchospasm. Symptoms include episodes of wheezing, coughing, chest tightness, and shortness of breath.",
+
+		"cholera": "Cholera is an infectious disease that causes severe watery diarrhea, which can lead to dehydration and even death if untreated. It is caused by eating food or drinking water contaminated with a bacterium called Vibrio cholerae.",
+
+		"chicken pox": "Chickenpox (varicella) is a viral infection that causes an itchy rash with small, fluid-filled blisters. Chickenpox is highly contagious to people who haven't had the disease or been vaccinated against it. Before routine chickenpox vaccination, virtually all people had been infected by the time they reached adulthood, sometimes with serious complications",
+
+		"malaria": "Malaria is a life-threatening disease. It's typically transmitted through the bite of an infected Anopheles mosquito. Infected mosquitoes carry the Plasmodium parasite. When this mosquito bites you, the parasite is released into your bloodstream.",
+
+		"Ebola": "Ebola Virus Disease (EVD) is a rare and deadly disease in people and nonhuman primates. The viruses that cause EVD are located mainly in sub-Saharan Africa. People can get EVD through direct contact with an infected animal (bat or nonhuman primate) or a sick or dead person infected with Ebolavirus.",
+
+		"Diabetes": "Diabetes is a disease in which your blood glucose, or blood sugar, levels are too high. Glucose comes from the foods you eat. Insulin is a hormone that helps the glucose get into your cells to give them energy. With type 1 diabetes, your body does not make insulin.",
+
+		"Rheumatoid Arthritis": " Rheumatoid arthritis (RA) is a long-term autoimmune disorder that primarily affects joints. It typically results in warm, swollen, and painful joints. Pain and stiffness often worsen following rest. Most commonly, the wrist and hands are involved, with the same joints typically involved on both sides of the body. ",
+
+		"Multiple Sclerosis": " Multiple sclerosis (MS) is a potentially disabling disease of the brain and spinal cord (central nervous system). In MS, the immune system attacks the protective sheath (myelin) that covers nerve fibers and causes communication problems between your brain and the rest of your body. Eventually, the disease can cause the nerves themselves to deteriorate or become permanently damaged.",
+
+		"Arrhythmia": " An arrhythmia is a problem with the rate or rhythm of your heartbeat. It means that your heart beats too quickly, too slowly, or with an irregular pattern. When the heart beats faster than normal, it is called tachycardia. ",
+
+		"Cardiomyopathy": " Cardiomyopathy refers to diseases of the heart muscle. These diseases have many causes, signs and symptoms as well as treatments. In most cases, cardiomyopathy causes the heart muscle to become enlarged, thick or rigid. In rare instances, diseased heart muscle tissue is replaced with scar tissue. ",
+
+		"Frontotemporal dementia": " Frontotemporal dementia is an uncommon type ofdementia that mainly affects the front and sides of the brain (frontal and temporal lobes) and causes problems with behaviour and language. Dementia is the name for problems with mental abilities caused by gradual changes and damage in the brain. ",
+
+		"Cardiophobia": " Cardiophobia is defined as an anxiety disorder of persons characterized by repeated complaints of chest pain, heart palpitations, and other somatic sensations accompanied by fears of having a heart attack and of dying. ... The relationship of cardiophobia to illness phobia, health anxiety, and panic disorder .",
+
+		"Cardiomegaly": " Cardiomegaly is a medical condition in which the heart is enlarged. It is more commonly referred to as an enlarged heart. The causes of cardiomegaly may vary. Many times this condition results from high blood pressure (hypertension) or coronary artery disease. ",
+
+		"Yellow Fever": " Yellow fever is a viral disease of typically short duration. ... The disease is caused by the yellow fever virus and is spread by the bite of an infected female mosquito. It infects only humans, other primates, and several species of mosquitoes. ",
+
+		"Migraine": " A migraine is a primary headache disorder characterized by recurrent headaches that are moderate to severe. Typically, the headaches affect one half of the head, are pulsating in nature, and last from two to 72 hours. Associated symptoms may include nausea, vomiting, and sensitivity to light, sound, or smell. ",
+
+		"Swine Flu": " Swine flu is the name for the influenza type A virus that affects pigs (swine). Although swine flu doesn't typically affect humans, there was a global outbreak (pandemic) in 2009–2010, the first flu pandemic in more than 40 years. ",
+
+		"Peptic ulcer": " Peptic ulcers are sores that develop in the lining of the stomach, lower esophagus, or small intestine. They're usually formed as a result of inflammation caused by the bacteria H. pylori, as well as from erosion from stomach acids. Peptic ulcers are a fairly common health problem. ",
+
+		"Heart Attack": " A heart attack (myocardial infarction or MI) is a serious medical emergency in which the supply of blood to the heart is suddenly blocked, usually by a blood clot. A heart attack is a medical emergency. Dial 999 and ask for an ambulance if you suspect aheart attack. ",
+
+		"Myocarditis": " Myocarditis, also known as inflammatory cardiomyopathy, is inflammation of the heart muscle. Symptoms can include shortness of breath, chest pain, decreased ability to exercise, and an irregular heartbeat. ",
+
+		"Fibromyalgia": " Fibromyalgia, also called fibromyalgia syndrome (FMS), is a long-term condition that causes pain all over the body. As well as widespread pain, people with fibromyalgia may also have: increased sensitivity to pain. fatigue (extreme tiredness) muscle stiffness. ",
+
+		"Addison's Disease": " Addison's disease, also known as primary adrenal insufficiency and hypocortisolism, is a long-term endocrine disorder in which the adrenal glands do not produce enough steroid hormones. Symptoms generally come on slowly and may include abdominal pain, weakness, and weight loss. ",
+
+		"Albinism": " Albinism is a congenital disorder characterized in humans by the complete or partial absence of pigment in the skin, hair and eyes. ",
+
+		"Anemia": " Anemia is a condition that develops when your blood lacks enough healthy red blood cells or hemoglobin. Hemoglobin is a main part of red blood cells and binds oxygen. If you have too few or abnormal red blood cells, or your hemoglobin is abnormal or low, the cells in your body will not get enough oxygen. ",
+
+		"Anthrax": " Anthrax is an infection caused by the bacterium Bacillus anthracis. It can occur in four forms: skin, lungs, intestinal, and injection. ",
+
+		"Tuberculosis": " Tuberculosis (TB) is a disease caused by bacteria called Mycobacterium tuberculosis. The bacteria usually attack the lungs, but they can also damage other parts of the body. TB spreads through the air when a person with TB of the lungs or throat coughs, sneezes, or talks. ",
+
+		"Leukemia": " Leukemia is a cancer of the blood or bone marrow. Bone marrow produces blood cells. Leukemia can happen when there is a problem with the production of blood cells. It usually affects the leukocytes, or white blood cells. ",
+
+		"Brain Cancer": " A cancerous or non-cancerous mass or growth of abnormal cells in the brain. ",
+
+		"Pneumonia": " Pneumonia is an infection of the lungs with a range of possible causes. It can be a serious and life-threatening disease. It normally starts with a bacterial, viral, or fungal infection. The lungs become inflamed, and the tiny air sacs, or alveoli, inside the lungs fill up with fluid. ",
+
+		"Cataract": " A cataract is a clouding of the lens in the eye which leads to a decrease in vision. Cataracts often develop slowly and can affect one or both eyes. Symptoms may include faded colors, blurry vision, halos around light, trouble with bright lights, and trouble seeing at night. ",
+
+		"Cavities": " A cavity is a hole that can grow bigger and deeper over time.Cavities are also called dental caries (say: KARE-eez), and if you have a cavity, it's important to get it repaired. But why would your tooth develop a hole? Blame plaque. That's a sticky, slimy substance made up mostly of the germs that cause tooth decay. ",
+
+		"Dyslexia": " Dyslexia is a common learning difficulty that can cause problems with reading, writing and spelling. It's a specific learning difficulty, which means it causes problems with certain abilities used for learning, such as reading and writing. Unlike a learning disability, intelligence isn't affected. ",
+
+		"Hematuria": " Hematuria is the presence of red blood cells in the urine. Visible hematuria, also known as gross hematuria (also frankhematuria or macroscopic hematuria), causes visible red or brown discoloration of the urine. ",
+
+		"Hepatitis B": " Hepatitis B is an infection of your liver. It can cause scarring of the organ, liver failure, and cancer. It can be fatal if it isn't treated. It's spread when people come in contact with the blood, open sores, or body fluids of someone who has the hepatitis B virus. ",
+
+		"Leprosy": " Leprosy is a chronic, progressive bacterial infection caused by the bacterium Mycobacterium leprae. It primarily affects the nerves of the extremities, the skin, the lining of the nose, and the upper respiratory tract. Leprosy is also known as Hansen's disease. ",
+
+		"Trachoma": " Trachoma is an infectious disease caused by bacterium Chlamydia trachomatis. The infection causes a roughening of the inner surface of the eyelids. This roughening can lead to pain in the eyes, breakdown of the outer surface or cornea of the eyes, and eventual blindness. ",
+
+		"Hypothyroid": " Hypothyroidism, also called underactive thyroid or low thyroid, is a disorder of the endocrine system in which the thyroid gland does not produce enough thyroid hormone. It can cause a number of symptoms, such as poor ability to tolerate cold, a feeling of tiredness, constipation, depression, and weight gain. ",
+
+		"Influenza": " Influenza, commonly known as the flu, is an infectious disease caused by an influenza virus. Symptoms can be mild to severe. The most common symptoms include: high fever, runny nose, sore throat, muscle pains, headache, coughing, sneezing, and feeling tired. ",
+
+		"Kidney Stones": " Kidney stones are the result of a buildup of dissolved minerals on the inner lining of the kidneys.",
+
+		"Hyperthyroidism": " Hyperthyroidism (overactive thyroid) occurs when your thyroid gland produces too much of the hormone thyroxine. Hyperthyroidism can accelerate your body's metabolism, causing unintentional weight loss and a rapid or irregular heartbeat. "
+	},
+
+	"Doctor Details": [{
+
+			"Doctor name": "Dr G THILAGAVATHY",
+			"Specialist": " PULMONOLOGIST",
+			"Hospital": "Vijaya Hospital",
+			"Address": "No: 434(180),NSK Salai,Vadapalani,Chennai,Tamil Nadu 600026",
+			"Contact": "98404 28885",
+			"Consultation fee:": "500",
+			"latitude": "13.0495625",
+			"longitude": "80.2084375"
+
+		},
+
+		{
+
+			"Doctor name": "Dr. BASHHER AHMED",
+			"Specialist": " ALLERGIST",
+			"Hospital": "Apollo Heart Center",
+			"Address": "Apollo Heart Centre 156,Greams Road, Chennai,Tamil Nadu 600006",
+			"Contact": "1860 500 1066",
+			"Consultation fee:": " 300",
+			"latitude": "",
+			"longitude": ""
+
+		},
+
+		{
+
+			"Doctor name": "Dr. Saravanan.B.N ",
+			"Specialist": " Dermatologist",
+			"Hospital": "Sree Skin, Hair and Cosmetic Clinic",
+			"Address": "19, 1st Cross Street, Gangai Nagar, velachery 100 Feet Bypass Road, Landmark: Behind Prince Jewelry And Murugan Kalyana Mantapam, Chennai",
+			"Contact": "8508803563",
+			"Consultation fee:": " 350",
+			"latitude": "12.9848125",
+			"longitude": "80.2169375"
+
+
+		},
+		{
+
+			"Doctor name": "Dr. Selva Prabu",
+			"Specialist": " Dermatologist",
+			"Hospital": "Zion Skin And Hair Clinic",
+			"Address": "333, Thiruvalluvar Salai, Paneer Nagar, Landmark: Next To Cakeworld Shop, Chennai",
+			"Contact": "9096707664",
+			"Consultation fee:": " 450",
+			"latitude": "13.0829375",
+			"longitude": "80.1798125"
+
+
+		},
+		{
+
+			"Doctor name": "Dr. Gayathri Devi",
+			"Specialist": " Dermatologist",
+			"Hospital": "Derma Med Spa the Skin Clinic",
+			"Address": "2, 1st Cross Street, TTK Road, Sriram Nagar, Landmark: Near Boston School, Chennai",
+			"Contact": "8908807889",
+			"Consultation fee:": " 400",
+			"latitude": "13.0326875",
+			"longitude": "80.2521875"
+
+
+		},
+		{
+
+			"Doctor name": "Dr. Prasanthi",
+			"Specialist": " Dermatologist",
+			"Hospital": "PCH Clinic",
+			"Address": "250, Poonamallee High Road, Landmark: Above Hyundai Show Room, Chennai",
+			"Contact": "8508803564",
+			"Consultation fee:": " 500",
+			"latitude": "13.0739375",
+			"longitude": "80.2279375"
+
+
+		},
+		{
+
+			"Doctor name": "Derma Med Spa the Skin Clinic",
+			"Specialist": " Dermatologist",
+			"Hospital": "Carves Skin Clinic",
+			"Address": "#320A / 47A, Velachery Main Road, Velachery Chennai 42.Landmark:near j 7 police station, Landmark: Opposite Ceebros Orchid, Chennai",
+			"Contact": "789898906",
+			"Consultation fee:": " 300",
+			"latitude": "",
+			"longitude": ""
+
+
+		},
+		{
+
+			"Doctor name": "Dr. B. Madan Mohan",
+			"Specialist": " Cardiologist",
+			"Hospital": "Fortis Malar Hospital",
+			"Address": "52, 1st Main Road, Gandhinagar, Landmark: Near Adyar Signal, Chennai",
+			"Contact": "7200200386",
+			"Consultation fee:": " 500",
+			"latitude": "13.0100625",
+			"longitude": "80.2588125"
+
+
+		},
+		{
+
+			"Doctor name": "Dr. Pradeep G Nayar",
+			"Specialist": " Cardiologist",
+			"Hospital": "MIOT International Hospital",
+			"Address": "4/112, Mount Poonamallee Road, Manapakkam, Landmark: Near Chennai Trade Center, Chennai",
+			"Contact": "9002332313",
+			"Consultation fee:": " 600",
+			"latitude": "13.0215625",
+			"longitude": "80.1855625"
+
+
+		},
+		{
+
+			"Doctor name": "Dr. Gopi Nallaiyan",
+			"Specialist": " Cardiologist",
+			"Hospital": "Apollo Hospital",
+			"Address": "Lake View Road, 80 Feet Road, KK Nagar, Landmark: Opposite Rajadhani Hotel, Madurai",
+			"Contact": "1860 500 1066",
+			"Consultation fee:": " 450",
+			"latitude": "9.9336875",
+			"longitude": "9.9336875"
+
+
+		},
+		{
+
+			"Doctor name": "Dr. Pramod Kumar Jaiswal",
+			"Specialist": " Cardiologist",
+			"Hospital": "SIMS Hospital - Institute Of Cardiac Sciences",
+			"Address": "No 1, Jawaharlal Nehru Salai (100 ft Road ), Landmark: Next to Vadapalani Metro Station, Chennai",
+			"Contact": "8506789091",
+			"Consultation fee:": " 800",
+			"latitude": "13.0518125",
+			"longitude": "80.2118125"
+
+
+		},
+		{
+
+			"Doctor name": "Dr. Sanjiv Agrawal",
+			"Specialist": " Cardiologist",
+			"Hospital": "Fortis Malar Hospital",
+			"Address": "52, 1st Main Road, Gandhinagar, Landmark: Near Adyar Signal, Chennai",
+			"Contact": "1800 234 1500",
+			"Consultation fee:": " 500",
+			"latitude": "13.0100625",
+			"longitude": "80.2588125"
+
+
+		},
+		{
+
+			"Doctor name": "Dr. M. Kodeeswaran",
+			"Specialist": " Neurologist",
+			"Hospital": "Prime Indian Hospitals",
+			"Address": "1051, Amaravathi Nagar, Poonamallee High Road, Landmark: Near Megamart, Chennai",
+			"Contact": "1860 500 2000",
+			"Consultation fee:": " 380",
+			"latitude": "13.0766875",
+			"longitude": "80.2058125"
+
+
+		},
+		{
+
+			"Doctor name": "Dr. D. R. Shankar",
+			"Specialist": " Neurologist",
+			"Hospital": "Prime Indian Hospitals",
+			"Address": "1051, Amaravathi Nagar, Poonamallee High Road, Landmark: Near Megamart, Chennai",
+			"Contact": "9009900091",
+			"Consultation fee:": " 550",
+			"latitude": "13.0766875",
+			"longitude": "80.2058125"
+
+
+		},
+		{
+
+			"Doctor name": "Dr. GEETHA LAKSHMIPATHY",
+			"Specialist": " Neurologist",
+			"Hospital": "Apollo Hospitals",
+			"Address": "No: 21, Greams Lane,Off Greams Road,Chennai,Tamil Nadu 600006",
+			"Contact": "1860 500 1066",
+			"Consultation fee:": " 200",
+			"latitude": "13.0631875",
+			"longitude": "80.2515625"
+
+
+		},
+		{
+
+			"Doctor name": "Dr. Rajeshwari",
+			"Specialist": " Neurologist",
+			"Hospital": "Dr. Kamakshi Memorial Hospital",
+			"Address": "1, Radial Road, Landmark: Opposite Cognizant Company, Chennai",
+			"Contact": "8887778880",
+			"Consultation fee:": " 600",
+			"latitude": "12.9493125",
+			"longitude": "80.2093125"
+
+
+
+		},
+		{
+
+			"Doctor name": "Dr. Harisudhan",
+			"Specialist": " Neurologist",
+			"Hospital": "Dr. Kamakshi Memorial Hospital",
+			"Address": "1, Radial Road, Landmark: Opposite Cognizant Company, Chennai",
+			"Contact": "8887778880",
+			"Consultation fee:": " 600",
+			"latitude": "12.9493125",
+			"longitude": "80.2093125"
+
+
+		},
+		{
+
+			"Doctor name": "Dr. N. Rajeshwari",
+			"Specialist": " Pediatrician",
+			"Hospital": "Dr. Kamakshi Memorial Hospital",
+			"Address": "1, Radial Road, Landmark: Opposite Cognizant Company, Chennai",
+			"Contact": "1800 789 1890",
+			"Consultation fee:": " 500",
+			"latitude": "12.9493125",
+			"longitude": "80.2093125"
+
+
+		},
+		{
+
+			"Doctor name": "Dr. Ganesh Veluswami",
+			"Specialist": " Pediatrician",
+			"Hospital": "N.I.C.E Clinic",
+			"Address": "A1, Rammiyam Homes, Plot Number 127, Brindavan 5th Cross St, Srinivasa Nagar, Puzhuthivakkam, Landmark: Near Velechery MRTS Station, Chennai",
+			"Contact": "9089890000",
+			"Consultation fee:": " 200",
+			"latitude": "12.9693125",
+			"longitude": "80.2134375"
+
+
+		},
+		{
+
+			"Doctor name": "Dr. Anbezhil Subbarayan",
+			"Specialist": " Pediatrician",
+			"Hospital": "Dr. Kamakshi Memorial Hospital",
+			"Address": "1, Radial Road, Landmark: Opposite Cognizant Company, Chennai",
+			"Contact": "9500085000",
+			"Consultation fee:": " 1500",
+			"latitude": "12.9493125",
+			"longitude": "80.2093125"
+
+
+		},
+		{
+
+			"Doctor name": "Dr. Vaideeswaran M",
+			"Specialist": " Pediatrician",
+			"Hospital": "Dr. Kamakshi Memorial Hospital",
+			"Address": "1, Radial Road, Landmark: Opposite Cognizant Company, Chennai",
+			"Contact": "",
+			"Consultation fee:": " 500",
+			"latitude": "12.9493125",
+			"longitude": "80.2093125"
+
+
+		},
+		{
+
+			"Doctor name": "Dr. B Benjamin",
+			"Specialist": " Pediatrician",
+			"Hospital": "Fortis Malar Hospital",
+			"Address": "52, 1st Main Road, Gandhinagar, Landmark: Near Adyar Signal, Chennai",
+			"Contact": "8908908900",
+			"Consultation fee:": " 500",
+			"latitude": "13.0100625",
+			"longitude": "80.2588125"
+
+		}
+	],
+		"specialist": {
+		"Tetanus": "Orthopaedic", 
+
+		"Diphtheria": "ENT",
+
+		"Dengue Fever": "General physician",
+
+		"Vitiligo": "dermatologist",
+
+		"Gastritis": "Gastroenterologist",
+
+		"Gout": "Orthopaedic",
+
+		"Asthma": "Pulmonologist",
+
+		"cholera": "General physician",
+
+		"chicken pox": "General physician",
+
+		"malaria": "General physician",
+
+		"Ebola": "Emergency Medicine Doctor",
+
+		"Diabetes": "Endocrinologist",
+
+		"Rheumatoid Arthritis": "Rheumatologist",
+
+		"Multiple Sclerosis": "Neurologist",
+
+		"Arrhythmia": "Cardiologist",
+
+		"Cardiomyopathy": "Cardiologist",
+
+		"Frontotemporal dementia": "Neurologists",
+
+		"Cardiophobia": "Cardiologist",
+
+		"Cardiomegaly": "Cardiologist",
+
+		"Yellow Fever": "Cardiologist",
+
+		"Migraine": "Neurologist",
+
+		"Swine Flu": "General physician",
+
+		"Peptic ulcer": "General physician",
+
+		"Heart Attack": "Cardiologist",
+
+		"Myocarditis": "Cardiologist",
+
+		"Fibromyalgia": "Rheumatologist",
+
+		"Addison's Disease": "Endocrinologist",
+
+		"Albinism": "General physician",
+
+		"Anemia": "General physician",
+
+		"Anthrax": "General physician",
+
+		"Tuberculosis": "Pulmonologist",
+
+		"Leukemia": "Hematologist",
+
+		"Brain Cancer": "Oncologist",
+
+		"Pneumonia": "Pulmonologist",
+
+		"Cataract": "Ophthalmologist",
+
+		"Cavities": "Dentist",
+
+		"Dyslexia": "Psychiatrist",
+
+		"Hematuria": "Nephrologist",
+
+		"Hepatitis B": "Hepatologist",
+
+		"Leprosy": "Immunologist",
+
+		"Trachoma": "Ophthalmologist",
+
+		"Hypothyroid": "Endocrinologist",
+
+		"Influenza": "General physician",
+
+		"Kidney Stones": "urologist",
+
+		"Hyperthyroidism": "Endocrinologist",
+
+		"Alzeimer": "Nephrologist",
+
+		"Ascariasis": "General physician",
+
+		"Autism": "Psychiatrist",
+
+		"Bacterial meningitis": "Emergency Medicine Doctor",
+
+		"Bronchitis": "Pulmonologist",
+
+		"Brucellosis": "Rheumatologist",
+
+		"Chikungunya": "General physician",
+
+		"Crohn's disease": "Gastroenterologist",
+
+		"conjunctivitis or pink eye": "Ophthalmologist",
+
+		"candidiasis": "General physician",
+
+		"Dengue fever": "General physician",
+
+		"Elephantiasis": "General physician",
+
+		"Epilepsy": "Nephrologist",
+
+		"Mucormycosis": "ENT",
+
+		"Giardiasis": "General physician"
+
+	}
+}
