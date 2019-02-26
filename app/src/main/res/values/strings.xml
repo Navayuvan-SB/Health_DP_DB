@@ -8,4 +8,6 @@
     <string name="select_symptoms">select symptoms</string>
     <string name="predict">Predict</string>
     <string name="nulla">nulla</string>
+    <string name="disease">Disease</string>
+    <string name="click_here_to_get_suggestions">Click here to get Suggestions</string>
 </resources>

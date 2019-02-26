@@ -1,6 +1,7 @@
 package com.example.health_dp_db;
 
 import android.app.Activity;
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
@@ -19,6 +20,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ListView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -74,9 +76,15 @@ public class Disease_prediction extends Fragment {
 
     private ArrayList<Integer> resInInt = new ArrayList<Integer>();
 
+    private ImageView resetBtn;
+
+    ProgressBar progressBar;
+
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
          // Inflate the layout for this fragment
 
 
@@ -88,8 +96,25 @@ public class Disease_prediction extends Fragment {
 
         predictBtn = view.findViewById(R.id.predictBtn);
 
+        resetBtn = view.findViewById(R.id.resetBtn);
+
+        plusBtn = view.findViewById(R.id.plusBtnImg);
+
 
         contents = new ArrayList<String>();
+
+        progressBar = (ProgressBar)view.findViewById(R.id.progressbar);
+
+        progressBar.setVisibility(View.VISIBLE);
+
+        autocompleteText.setEnabled(false);
+
+        plusBtn.setEnabled(false);
+
+        resetBtn.setEnabled(false);
+
+
+
 
         mSymptomsReference.addValueEventListener(new ValueEventListener() {
             @Override
@@ -101,6 +126,17 @@ public class Disease_prediction extends Fragment {
                     contents.add(get);
                     System.out.println("Key :" + childDataSnapshot.getKey());
                 }
+                //System.out.println("Value asdasd asdasd asdasd ");
+
+                progressBar.setVisibility(View.INVISIBLE);
+
+                autocompleteText.setEnabled(true);
+
+                plusBtn.setEnabled(true);
+
+                resetBtn.setEnabled(true);
+
+
             }
 
             @Override
@@ -109,11 +145,10 @@ public class Disease_prediction extends Fragment {
             }
         });
 
+
         ArrayAdapter <String> adapter = new ArrayAdapter<String>(getActivity().getApplicationContext(),android.R.layout.simple_list_item_1,contents);
 
         autocompleteText.setAdapter(adapter);
-
-        plusBtn = view.findViewById(R.id.plusBtnImg);
 
         selectedSympList = view.findViewById(R.id.selectedSymp);
 
@@ -160,13 +195,33 @@ public class Disease_prediction extends Fragment {
         predictBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                predition();
+
+                if (selectedSymp.isEmpty()){
+
+                    Toast.makeText(getActivity().getApplicationContext(), "Enter the symptoms", Toast.LENGTH_LONG).show();
+                }else{
+                    predition();
+                }
+
 
             }
         });
 
+
+        resetBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                selectedSymp.clear();
+
+                adapterSelectedSymp.notifyDataSetChanged();
+            }
+        });
+
+
+
         return view;
     }
+
 
 
     private void predition() {
@@ -214,7 +269,6 @@ public class Disease_prediction extends Fragment {
                                   System.out.print("\n");
                               }
                             }
-                            //System.out.println(tokenizer.nextToken());
                         }
 
                         if (count > maxIds){
@@ -231,6 +285,10 @@ public class Disease_prediction extends Fragment {
 
 
                     }
+                    System.out.println("asdfghjkl;");
+                    System.out.println(predDiseaseId);
+
+
                 }
 
                 @Override
@@ -240,14 +298,12 @@ public class Disease_prediction extends Fragment {
 
             });
 
+
         mResultReference.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                String str = dataSnapshot.getValue().toString();
 
-                int res = Integer.parseInt(str);
-
-                resInInt.add(res);
+                resInInt.add(Integer.parseInt(predDiseaseId));
 
             }
 
@@ -265,9 +321,13 @@ public class Disease_prediction extends Fragment {
 
                 for (DataSnapshot child : dataSnapshot.getChildren()){
                     if (Integer.parseInt(child.getValue().toString()) == i){
+                        String resultString = child.getKey();
                         Toast.makeText(getActivity().getApplicationContext(), child.getKey(), Toast.LENGTH_LONG).show();
                         System.out.println("\n\n\n Result \n\n\n");
                         System.out.println(child.getKey());
+                        Intent in = new Intent(getActivity().getApplicationContext(), Description.class);
+                        in.putExtra("RESULT", resultString);
+                        startActivity(in);
                     }
                 }
             }
@@ -278,8 +338,16 @@ public class Disease_prediction extends Fragment {
             }
         });
 
+
+
     }
 
+    private void send() {
+
+        selectedSymp.clear();
+
+        adapterSelectedSymp.notifyDataSetChanged();
+    }
 
 
     @Override
